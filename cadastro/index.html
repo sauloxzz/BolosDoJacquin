@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BJ - Produtos</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>BJ - Cadastro</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -55,73 +55,55 @@
     </header>
 
     <main>
-        <section class="banner"></section>
-        <section class="container">
-            <h1 class="acessivel">produtos de chocolate</h1>
-            <div class="titulo">
-                <span>Chocolate</span>
-                <hr>
+        <h1 class="acessivel">tela de Cadastro e listagem de produtos</h1>
+
+        <section class="container_cadastro">
+            <h2>Cadastro</h2>
+            <hr>
+
+            <div class="box_cadastro">
+                <div class="cadastro_coluna1">
+                    <div class="bolos">
+                        <label for="bolo">Bolo</label>
+                        <input type="text" name="" id="bolo">
+                    </div>
+
+                    <div class="categoria_img">
+                        <div class="categoria">
+                            <label for="cat">Categoria</label>
+                            <input type="text" name="" id="cat">
+                        </div>
+                        <div class="img">
+                            <label for="img">Imagem</label>
+                            <input type="file" name="" id="img">
+                        </div>
+                    </div>
+
+                    <div class="valor_peso">
+                        <div class="valor">
+                            <label for="val">Valor</label>
+                            <input type="text" name="" id="val">
+                        </div>
+
+                        <div class="peso">
+                            <label for="peso">Peso</label>
+                            <input type="text" name="" id="peso">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="cadastro_coluna2"><label for="desc">Descrição</label>
+                    <textarea name="" id="desc"></textarea>
+                </div>
             </div>
-            <section class="cards">
-                <div class="card">
-                    <img src="./assets/imgs/choc-belga.png" alt="Uma fatia de bolo de chocolate belga">
-                    <h2>Chocolate Belga</h2>
-                    <p>Bolo macio de chocolate, aplicado granulado que traz crocância
-                        e um sabor irresistivel.</p>
-                    <span>R$ 80,00/kg. </span>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/imgs/choc-ninho.png" alt="Uma fatia de bolo de chocolate com leite ninho">
-                    <h2>Chocolate com ninho </h2>
-                    <p>Bolo macio de chocolate com creme de leite ninho, um sabor irresistivel.</p>
-                    <span>R$ 90,00/kg. </span>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/imgs/cenoura-choc.png"
-                        alt="Uma fatia de bolo de cenoura com cobertura de chocolate">
-                    <h2>Cenoura com Chocolate</h2>
-                    <p>Bolo macio de cenoura com cobertura de chocolate, um sabor familia e irresistivel</p>
-                    <span>R$ 70,00/kg. </span>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/imgs/choc-ninho-morango.png"
-                        alt="Uma fatia de bolo de chocolate com ninho e morango">
-                    <h2>Ninho com Morango</h2>
-                    <p>Bolo macio de chocolate com recheio de leite ninho e morango. A melhor combinação para o seu dia.
-                    </p>
-                    <span>R$ 105,00/kg. </span>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/imgs/choc-pistache.png" alt="Uma fatia de bolo de chocolate com pistache">
-                    <h2>Chocolate com pistache</h2>
-                    <p>Bolo macio de chocolate com pistache que traz um sabor irresistivel.</p>
-                    <span>R$ 120,00/kg. </span>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/imgs/choc-oreo.png" alt="Uma fatia de bolo de chocolate com oreo">
-                    <h2>Chocolate Com Oreo</h2>
-                    <p>Bolo macio de chocolate com pedaços de oreo que trazem uma crocância e um sabor irresistivel para
-                        melhorar o seu dia.</p>
-                    <span>R$ 100,00/kg. </span>
-                </div>
-
-            </section>
+            <input type="button" value="Cadastrar">
         </section>
 
-        <a class="whatsapp"
-            href="https://wa.me/5511940028922?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20produto!"
-            target="_blank">
-            <img src="./assets/WhatsApp_Logo_PNG_Sem_Fundo_Transparente 4.png" alt="icone-whatsapp">
-        </a>
+
+
     </main>
- <footer>
-    <p>Bolos do Jacquin® - Todos os direitos reservados</p>
- </footer>   
+
 </body>
 
 </html>
