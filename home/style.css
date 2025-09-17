@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bellota", system-ui;
+}
+
+:root {
+    --sombra: 0 0 40px 2px #00000075;
+}
+
+
+
+
+
+
+.acessivel {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+.secao_logo svg {
+    width: 240px;
+}
+
+.card_cacau {
+    background: linear-gradient(90deg, rgba(59, 31, 0, 1) 0%, rgba(107, 57, 0, 1) 50%);
+}
+
+.card_alianca{
+    background: linear-gradient(90deg,rgba(13, 8, 52, 1) 0%, rgba(37, 24, 154, 1) 50%);
+}
+
+
+.card {
+    width: 260px;
+    height: 360px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 10px 10px 40px 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0 0 40px 2px #00000075;
+}
+
+
+
+
+.card svg:first-child {
+    width: 26px;
+    align-self: flex-end;
+}
+
+.svg_principal {
+    width: 100px;
+}
